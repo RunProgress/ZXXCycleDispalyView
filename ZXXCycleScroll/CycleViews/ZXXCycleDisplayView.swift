@@ -98,6 +98,7 @@ class ZXXCycleDisplayView: UIView, UICollectionViewDelegate, UICollectionViewDat
     override func layoutSubviews() {
         super.layoutSubviews();
         mainCollection?.frame = self.bounds;
+        itemWidth = (mainCollection?.frame.size.width)!;
     }
     
     // mark --- scroll control ---
