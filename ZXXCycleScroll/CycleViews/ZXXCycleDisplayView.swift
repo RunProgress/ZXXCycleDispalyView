@@ -175,7 +175,6 @@ class ZXXCycleDisplayView: UIView, UICollectionViewDelegate, UICollectionViewDat
     func scrollViewDidEndDecelerating(_ scrollView: UIScrollView){
         drag = false;
         let offSetX = scrollView.contentOffset.x;
-        NSLog("enddrag: %lf", offSetX);
         if offSetX <= 0 {
             // 解决当 滑动到最左边的时候 松开手, 先把位置移动到中部第一的前一个,可以让用户继续再次向左滑动
             let nextIndex = IndexPath.init(row: dataSource.count - 1, section: Int(MaxSection / 2) - 1);
