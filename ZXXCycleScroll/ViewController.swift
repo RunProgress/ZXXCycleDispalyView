@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         var cycleView: ZXXCycleDisplayView?;
+        var cycleScrollView: ZXXCycleSrollView?;
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         cycleView = ZXXCycleDisplayView.init(frame: CGRect(x:0, y:64, width:self.view.frame.size.width,height:200));
@@ -23,6 +25,10 @@ class ViewController: UIViewController {
             imgNames.append(name);
         }
         cycleView?.dataSource = imgNames;
+        
+        cycleScrollView = ZXXCycleSrollView.init(frame: CGRect(x:0, y:300, width:self.view.frame.size.width,height:200));
+        self.view.addSubview(cycleScrollView!);
+        cycleScrollView?.dataSource = imgNames;
         
     }
 

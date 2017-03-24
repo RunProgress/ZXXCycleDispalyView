@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FCD9C7A1E85069A00D71B55 /* ZXXCycleSrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCD9C791E85069A00D71B55 /* ZXXCycleSrollView.swift */; };
 		1FCECDD11E8377D700EFAAA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCECDD01E8377D700EFAAA5 /* AppDelegate.swift */; };
 		1FCECDD31E8377D700EFAAA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCECDD21E8377D700EFAAA5 /* ViewController.swift */; };
 		1FCECDD61E8377D700EFAAA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCECDD41E8377D700EFAAA5 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FCD9C791E85069A00D71B55 /* ZXXCycleSrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXXCycleSrollView.swift; sourceTree = "<group>"; };
 		1FCECDCD1E8377D700EFAAA5 /* ZXXCycleScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXXCycleScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCECDD01E8377D700EFAAA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FCECDD21E8377D700EFAAA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			children = (
 				1FCECE011E837ED600EFAAA5 /* Views */,
 				1FCECDFF1E83790C00EFAAA5 /* ZXXCycleDisplayView.swift */,
+				1FCD9C791E85069A00D71B55 /* ZXXCycleSrollView.swift */,
 			);
 			path = CycleViews;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FCD9C7A1E85069A00D71B55 /* ZXXCycleSrollView.swift in Sources */,
 				1FCECE001E83790C00EFAAA5 /* ZXXCycleDisplayView.swift in Sources */,
 				1FCECDD31E8377D700EFAAA5 /* ViewController.swift in Sources */,
 				1FCECE041E837EF400EFAAA5 /* ZXXNormalImgCollectionViewCell.swift in Sources */,
@@ -542,6 +546,7 @@
 				1FCECDF71E8377D800EFAAA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FCECDF81E8377D800EFAAA5 /* Build configuration list for PBXNativeTarget "ZXXCycleScrollTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +555,7 @@
 				1FCECDFA1E8377D800EFAAA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FCECDFB1E8377D800EFAAA5 /* Build configuration list for PBXNativeTarget "ZXXCycleScrollUITests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +564,7 @@
 				1FCECDFD1E8377D800EFAAA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

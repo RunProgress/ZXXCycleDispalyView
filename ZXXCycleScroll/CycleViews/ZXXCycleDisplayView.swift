@@ -199,7 +199,6 @@ class ZXXCycleDisplayView: UIView, UICollectionViewDelegate, UICollectionViewDat
         else if offSetX > (scrollView.contentSize.width - itemWidth) && drag{
             let leftDirectMove = offSetX - (scrollView.contentSize.width - itemWidth);
             rightBufferView?.frame.origin.x = (mainCollection?.frame.origin.x)! + (mainCollection?.frame.size.width)! - CGFloat(leftDirectMove);
-        
         }
         else{
             leftBufferView?.frame.origin.x = 0 - (mainCollection?.frame.size.width)!;
